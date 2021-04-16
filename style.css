@@ -198,6 +198,9 @@ align-items: center;
 
 .section-contact {
     text-align: center;
+    width: 90vw;
+    max-width: 1440px;
+    margin: auto;
 }
 
 /*  */
@@ -245,4 +248,21 @@ section {
 .row {
     text-align: center;
     margin-top: 20px;
+}
+
+/* Grid */
+
+.column {
+    padding: 20px;
+    align-items: center;
+}
+
+
+@media (min-width: 40rem) {
+    .row {
+        display: flex;
+    }
+    .column {
+        flex: 33%;
+    }
 }
